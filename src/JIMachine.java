@@ -93,7 +93,7 @@ public class JIMachine extends Application {
             double width = borderPane.getCenter().getScaleX();
             double height = borderPane.getCenter().getScaleX();
 
-            //multiply by 25%
+            //Zoom in by 25%
             final double newWidth = width * 1.25;
             final double newHeight = height * 1.25;
             borderPane.getCenter().setScaleX(newWidth);
@@ -120,6 +120,7 @@ public class JIMachine extends Application {
             double width = borderPane.getCenter().getScaleX();
             double height = borderPane.getCenter().getScaleX();
 
+            //Zoom out by 25%
             final double newWidth = width * .75;
             final double newHeight = height * .75;
 
